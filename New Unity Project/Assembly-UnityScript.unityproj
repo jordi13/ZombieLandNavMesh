@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1753851C-AE59-909A-15AB-E3FFE34BC5A0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AtaqueCuchillo.js" />
+     <Compile Include="Assets\AutoMove.js" />
+     <Compile Include="Assets\BloodSplatJS.js" />
+     <Compile Include="Assets\CajaSalud.js" />
+     <Compile Include="Assets\DestroyBala.js" />
+     <Compile Include="Assets\DestroyZombieRagdoll.js" />
+     <Compile Include="Assets\EnemigoMierderNavMesh.js" />
+     <Compile Include="Assets\EnemyMovement.js" />
+     <Compile Include="Assets\GUIDimensionada.js" />
+     <Compile Include="Assets\Guns\Scripts\GunPlayer.js" />
+     <Compile Include="Assets\Guns\Scripts\LoadGun.js" />
+     <Compile Include="Assets\MasterSpawnScript.js" />
+     <Compile Include="Assets\Modelos\tyrant_zombie\EnemigoMierder.js" />
+     <Compile Include="Assets\NavMeshAI.js" />
+     <Compile Include="Assets\Scripts\Scripts\Armas\ArmasEstado.js" />
+     <Compile Include="Assets\Scripts\Scripts\Armas\SplashEstado.js" />
+     <Compile Include="Assets\Scripts\Scripts\AutoDestruir.js" />
+     <Compile Include="Assets\Scripts\Scripts\CargarMenu.js" />
+     <Compile Include="Assets\Scripts\Scripts\CharacterDamage.js" />
+     <Compile Include="Assets\Scripts\Scripts\DibujadorArmas.js" />
+     <Compile Include="Assets\Scripts\Scripts\Disparo Pistola.js" />
+     <Compile Include="Assets\Scripts\Scripts\Disparo.js" />
+     <Compile Include="Assets\Scripts\Scripts\DisparoSelectivo.js" />
+     <Compile Include="Assets\Scripts\Scripts\EnterCube.js" />
+     <Compile Include="Assets\Scripts\Scripts\GUI\Gradient Bar.js" />
+     <Compile Include="Assets\Scripts\Scripts\GUI\Health Bar pictures.js" />
+     <Compile Include="Assets\Scripts\Scripts\GUI\Health Bar.js" />
+     <Compile Include="Assets\Scripts\Scripts\GUI\HeathText.js" />
+     <Compile Include="Assets\Scripts\Scripts\GeneralVars.js" />
+     <Compile Include="Assets\Scripts\Scripts\GeneralVars1.js" />
+     <Compile Include="Assets\Scripts\Scripts\LoadMenu.js" />
+     <Compile Include="Assets\Scripts\Scripts\ManejadordeBlancos.js" />
+     <Compile Include="Assets\Scripts\Scripts\MenuGUI.js" />
+     <Compile Include="Assets\Scripts\Scripts\Municion.js" />
+     <Compile Include="Assets\Scripts\Scripts\Scripts\Examples\SimpleVelocityLimiter.js" />
+     <Compile Include="Assets\Scripts\Scripts\prueba Disparo Alternativo.js" />
+     <Compile Include="Assets\armasEstado.js" />
+     <Compile Include="Assets\cajaMunicion.js" />
+     <Compile Include="Assets\municion.js" />
+     <Compile Include="Assets\prova.js" />
+     <Compile Include="Assets\provaanimations.js" />
+     <Compile Include="Assets\seguir_camera.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Spawner\README.txt" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Guns\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{C62E21C4-7CD8-5581-1E66-AC8E36219989}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
