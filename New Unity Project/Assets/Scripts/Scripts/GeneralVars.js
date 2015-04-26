@@ -2,6 +2,7 @@
 
 static var nSalud : int = 100;
 //static var nMunicion : int = 1;
+static var puntuacion : int = 0;
 
 
 

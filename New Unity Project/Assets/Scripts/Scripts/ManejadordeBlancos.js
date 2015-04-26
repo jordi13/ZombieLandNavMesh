@@ -29,6 +29,8 @@ function Update(){
 		Detonate();
 		// anim.SetBool("Dead",true);
 		///////
+		GeneralVars.puntuacion += 75;
+		
 		if(flag == false){
 		
 			restarEnemyRestante();

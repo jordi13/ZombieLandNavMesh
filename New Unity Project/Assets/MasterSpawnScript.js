@@ -14,7 +14,7 @@ var spawnXOffsetMax = 0;
 var spawnZOffsetMin = 0;
 var spawnZOffsetMax = 0;
 
-var defaultSpawnNumber = 1;
+static var defaultSpawnNumber = 1;
 
 static var waveNumber = 0;
 
@@ -86,9 +86,12 @@ function Update () {
 }
 
 function OnGUI () {
-		GUI.Label (Rect (600, 10, 450, 20),"Enemigos Restantes : "+enemiesRestantes);
-		GUI.Label (Rect (600, 50, 450, 20),"Enemigos Totales Oleada: "+spawnNum);
-		GUI.Label (Rect (600, 30, 450, 20),"Numero Oleada : "+waveNumber);
+		GUI.skin.label.fontSize = 25 ;
+		
+		GUI.Label (Rect (800, 20, 450, 50),"Oleada "+waveNumber);
+		GUI.Label (Rect (800, 60, 450, 50),"Enemigos "+enemiesRestantes);
+		//GUI.Label (Rect (800, 50, 450, 20),"Enemigos Totales Oleada: "+spawnNum);
+		
 	}
 	
 	
